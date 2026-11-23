@@ -1,0 +1,22 @@
+{
+  "name": "@itonami/isco7",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "itonami": {
+    "id": "network.itonami.isco7",
+    "title": "ISCO Major 7 — Craft and related trades workers",
+    "source": "cloud-itonami-isco-7",
+    "runtime": "restricted-wasm-v1"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "tauri": "tauri",
+    "build:desktop": "npm run build && tauri build --no-bundle",
+    "build:android": "sh scripts/android-apk.sh"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "3.0.0-alpha.6"
+  }
+}
