@@ -1,0 +1,11 @@
+[{:itonami.blueprint/id "cloud-itonami-isco-7"
+  :itonami.blueprint/name "ISCO Major 7 — Craft and related trades workers"
+  :itonami.blueprint/isco-08 "7"
+  :itonami.blueprint/domain :craft-trades
+  :itonami.blueprint/license "AGPL-3.0-or-later"
+  :itonami.blueprint/social-impact [:fair-hiring :skills-mobility :local-jobs]
+  :itonami.blueprint/governor :craft-trades-governor
+  :itonami.blueprint/robotics true
+  :itonami.blueprint/required-technologies [:robotics :identity :forms :dmn :bpmn :audit-ledger]
+  :itonami.blueprint/status :public-oss
+  :db/id -1}]
